@@ -1,0 +1,25 @@
+# .dockerignore (수정본)
+
+# 1. Raw Data (절대 올리지 않음)
+data/
+*.csv
+
+# 2. Python & Environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 3. OS-specific
+.DS_Store
+
+# 4. Generated Models & Artifacts (train.py가 생성)
+# (이 파일들은 Docker 이미지에 포함되어서는 안 됩니다)
+final_xgboost_model.json
+final_randomforest_model.pkl
+model_columns.json
+industry_config.json
+optimal_thresholds_final.json
+
+# 5. (선택적) 분석 결과 이미지
+*.png

@@ -1,0 +1,21 @@
+# .gitignore
+
+# 1. Raw Data (절대 올리지 않음)
+data/
+*.csv
+
+# 2. Python & Environment
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# 3. OS-specific
+.DS_Store
+
+# 4. Generated Models & Artifacts
+# (이 파일들은 로컬에서 train.py로 생성하고, Git에는 올리지 않습니다.)
+*.pkl
+*.json
