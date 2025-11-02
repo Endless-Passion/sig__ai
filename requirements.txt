@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # requirements.txt
 pandas
 numpy
@@ -6,4 +7,14 @@ scikit-learn
 xgboost
 Flask
 gunicorn
+=======
+# requirements.txt
+pandas
+numpy
+joblib
+scikit-learn
+xgboost
+Flask
+gunicorn
+>>>>>>> fa3378e86e5a1605c3bc82c00b0970beb4a69ad1
 gunicorn
