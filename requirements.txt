@@ -1,0 +1,9 @@
+# requirements.txt
+pandas
+numpy
+joblib
+scikit-learn
+xgboost
+Flask
+gunicorn
+gunicorn
