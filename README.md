@@ -40,7 +40,7 @@
 - 비즈니스 요구사항(특정 Recall/Precision)에 맞는 최적의 임계값(Threshold)을 계산
 
 - 예측에 필요한 5가지 핵심 산출물(pkl 2개 + JSON 3개)을 저장
-- 
+
 ---
 
 ### preprocessing.py
